@@ -16,6 +16,8 @@ public class gugudan {
 			System.out.println();
 			}
 		}
+		else if(dan<0)
+			System.out.println("구구단 실행 불가");
 		else {
 			for(int j=1;j<10;j++) {
 				System.out.printf("%d x %d = %d\n", dan, j, dan*j);
